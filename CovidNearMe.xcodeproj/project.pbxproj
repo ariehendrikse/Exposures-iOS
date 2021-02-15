@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5288230025D256D20042A604 /* KenExposure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528822FF25D256D20042A604 /* KenExposure.swift */; };
+		5288230125D256D20042A604 /* KenExposure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528822FF25D256D20042A604 /* KenExposure.swift */; };
+		529E14D425BA679B0012D2C4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E14D325BA679B0012D2C4 /* Extensions.swift */; };
+		529E14D525BA679B0012D2C4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E14D325BA679B0012D2C4 /* Extensions.swift */; };
 		52B6EBCE25B96ADC00FCC516 /* CovidNearMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52B6EBB825B96ADA00FCC516 /* CovidNearMe.xcdatamodeld */; };
 		52B6EBCF25B96ADC00FCC516 /* CovidNearMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52B6EBB825B96ADA00FCC516 /* CovidNearMe.xcdatamodeld */; };
 		52B6EBD025B96ADC00FCC516 /* CovidNearMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B6EBBA25B96ADA00FCC516 /* CovidNearMeApp.swift */; };
@@ -17,9 +21,49 @@
 		52B6EBD525B96ADC00FCC516 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B6EBBC25B96ADA00FCC516 /* Persistence.swift */; };
 		52B6EBD625B96ADC00FCC516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B6EBBD25B96ADC00FCC516 /* Assets.xcassets */; };
 		52B6EBD725B96ADC00FCC516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B6EBBD25B96ADC00FCC516 /* Assets.xcassets */; };
+		52B6EBF525B96EB200FCC516 /* Exposure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B6EBF425B96EB200FCC516 /* Exposure.swift */; };
+		52B6EBF625B96EB200FCC516 /* Exposure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B6EBF425B96EB200FCC516 /* Exposure.swift */; };
+		52B6EBFB25B96EE600FCC516 /* nsw.json in Resources */ = {isa = PBXBuildFile; fileRef = 52B6EBFA25B96EE600FCC516 /* nsw.json */; };
+		52B6EBFC25B96EE600FCC516 /* nsw.json in Resources */ = {isa = PBXBuildFile; fileRef = 52B6EBFA25B96EE600FCC516 /* nsw.json */; };
+		52B6EC0025B96FE400FCC516 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B6EBFF25B96FE400FCC516 /* ModelData.swift */; };
+		52B6EC0125B96FE400FCC516 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B6EBFF25B96FE400FCC516 /* ModelData.swift */; };
+		52B6EC0C25B97B2E00FCC516 /* AlertsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B6EC0B25B97B2E00FCC516 /* AlertsHome.swift */; };
+		52B6EC0D25B97B2E00FCC516 /* AlertsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B6EC0B25B97B2E00FCC516 /* AlertsHome.swift */; };
+		52B6EC1325B97C7E00FCC516 /* AlertRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B6EC1225B97C7E00FCC516 /* AlertRow.swift */; };
+		52B6EC1425B97C7E00FCC516 /* AlertRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B6EC1225B97C7E00FCC516 /* AlertRow.swift */; };
+		52B6EC2025B97E1800FCC516 /* ClinicDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B6EC1D25B97E1800FCC516 /* ClinicDetail.swift */; };
+		52B6EC2125B97E1800FCC516 /* ClinicDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B6EC1D25B97E1800FCC516 /* ClinicDetail.swift */; };
+		52B6EC2225B97E1800FCC516 /* ClinicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B6EC1E25B97E1800FCC516 /* ClinicListView.swift */; };
+		52B6EC2325B97E1800FCC516 /* ClinicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B6EC1E25B97E1800FCC516 /* ClinicListView.swift */; };
+		52B6EC2425B97E1800FCC516 /* ClinicRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B6EC1F25B97E1800FCC516 /* ClinicRow.swift */; };
+		52B6EC2525B97E1800FCC516 /* ClinicRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B6EC1F25B97E1800FCC516 /* ClinicRow.swift */; };
+		52B6EC3725B9813900FCC516 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B6EC3625B9813900FCC516 /* MapView.swift */; };
+		52B6EC3825B9813900FCC516 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B6EC3625B9813900FCC516 /* MapView.swift */; };
+		52B6EC3C25B9815800FCC516 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B6EC3B25B9815800FCC516 /* CircleImage.swift */; };
+		52B6EC3D25B9815800FCC516 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B6EC3B25B9815800FCC516 /* CircleImage.swift */; };
+		52B6EC4325B99DDA00FCC516 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B6EC4225B99DDA00FCC516 /* LocationViewModel.swift */; };
+		52B6EC4425B99DDA00FCC516 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B6EC4225B99DDA00FCC516 /* LocationViewModel.swift */; };
+		52B6EC4D25B99EF000FCC516 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B6EC4C25B99EF000FCC516 /* LocationView.swift */; };
+		52B6EC4E25B99EF000FCC516 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B6EC4C25B99EF000FCC516 /* LocationView.swift */; };
+		52BD5ADB25B9B6BB000CB47E /* MapContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BD5ADA25B9B6BB000CB47E /* MapContainer.swift */; };
+		52BD5ADC25B9B6BB000CB47E /* MapContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BD5ADA25B9B6BB000CB47E /* MapContainer.swift */; };
+		52BD5AE025BA4A61000CB47E /* ClinicMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BD5ADF25BA4A61000CB47E /* ClinicMap.swift */; };
+		52BD5AE125BA4A61000CB47E /* ClinicMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BD5ADF25BA4A61000CB47E /* ClinicMap.swift */; };
+		52BD5AE525BA5460000CB47E /* ClinicAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BD5AE425BA5460000CB47E /* ClinicAnnotation.swift */; };
+		52BD5AE625BA5460000CB47E /* ClinicAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BD5AE425BA5460000CB47E /* ClinicAnnotation.swift */; };
+		52CD05E925B9A5050099D47C /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD05E525B9A5050099D47C /* AlertItem.swift */; };
+		52CD05EA25B9A5050099D47C /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD05E525B9A5050099D47C /* AlertItem.swift */; };
+		52CD060025B9A6090099D47C /* Clinic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD05FF25B9A6090099D47C /* Clinic.swift */; };
+		52CD060125B9A6090099D47C /* Clinic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD05FF25B9A6090099D47C /* Clinic.swift */; };
+		52CD060525B9AA380099D47C /* vicClinics.json in Resources */ = {isa = PBXBuildFile; fileRef = 52CD060425B9AA380099D47C /* vicClinics.json */; };
+		52CD060625B9AA380099D47C /* vicClinics.json in Resources */ = {isa = PBXBuildFile; fileRef = 52CD060425B9AA380099D47C /* vicClinics.json */; };
+		52CD060A25B9AA720099D47C /* ExposureDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD060925B9AA720099D47C /* ExposureDetail.swift */; };
+		52CD060B25B9AA720099D47C /* ExposureDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD060925B9AA720099D47C /* ExposureDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		528822FF25D256D20042A604 /* KenExposure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KenExposure.swift; sourceTree = "<group>"; };
+		529E14D325BA679B0012D2C4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		52B6EBB925B96ADA00FCC516 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		52B6EBBA25B96ADA00FCC516 /* CovidNearMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidNearMeApp.swift; sourceTree = "<group>"; };
 		52B6EBBB25B96ADA00FCC516 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,6 +74,25 @@
 		52B6EBCA25B96ADC00FCC516 /* CovidNearMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CovidNearMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B6EBCC25B96ADC00FCC516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52B6EBCD25B96ADC00FCC516 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		52B6EBF425B96EB200FCC516 /* Exposure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exposure.swift; sourceTree = "<group>"; };
+		52B6EBFA25B96EE600FCC516 /* nsw.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nsw.json; sourceTree = "<group>"; };
+		52B6EBFF25B96FE400FCC516 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		52B6EC0B25B97B2E00FCC516 /* AlertsHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsHome.swift; sourceTree = "<group>"; };
+		52B6EC1225B97C7E00FCC516 /* AlertRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertRow.swift; sourceTree = "<group>"; };
+		52B6EC1D25B97E1800FCC516 /* ClinicDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClinicDetail.swift; sourceTree = "<group>"; };
+		52B6EC1E25B97E1800FCC516 /* ClinicListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClinicListView.swift; sourceTree = "<group>"; };
+		52B6EC1F25B97E1800FCC516 /* ClinicRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClinicRow.swift; sourceTree = "<group>"; };
+		52B6EC3625B9813900FCC516 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		52B6EC3B25B9815800FCC516 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		52B6EC4225B99DDA00FCC516 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		52B6EC4C25B99EF000FCC516 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		52BD5ADA25B9B6BB000CB47E /* MapContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapContainer.swift; sourceTree = "<group>"; };
+		52BD5ADF25BA4A61000CB47E /* ClinicMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicMap.swift; sourceTree = "<group>"; };
+		52BD5AE425BA5460000CB47E /* ClinicAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicAnnotation.swift; sourceTree = "<group>"; };
+		52CD05E525B9A5050099D47C /* AlertItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertItem.swift; sourceTree = "<group>"; };
+		52CD05FF25B9A6090099D47C /* Clinic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clinic.swift; sourceTree = "<group>"; };
+		52CD060425B9AA380099D47C /* vicClinics.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vicClinics.json; sourceTree = "<group>"; };
+		52CD060925B9AA720099D47C /* ExposureDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExposureDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +126,12 @@
 		52B6EBB725B96ADA00FCC516 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				52B6EBF925B96EC900FCC516 /* Resources */,
 				52B6EBBA25B96ADA00FCC516 /* CovidNearMeApp.swift */,
-				52B6EBBB25B96ADA00FCC516 /* ContentView.swift */,
-				52B6EBBC25B96ADA00FCC516 /* Persistence.swift */,
+				529E14D325BA679B0012D2C4 /* Extensions.swift */,
+				52B6EBE225B96CC600FCC516 /* Views */,
+				52B6EBE525B96CCB00FCC516 /* Data */,
 				52B6EBBD25B96ADC00FCC516 /* Assets.xcassets */,
-				52B6EBB825B96ADA00FCC516 /* CovidNearMe.xcdatamodeld */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -96,6 +160,74 @@
 				52B6EBCD25B96ADC00FCC516 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		52B6EBE225B96CC600FCC516 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52B6EBBB25B96ADA00FCC516 /* ContentView.swift */,
+				52B6EC1C25B97E1800FCC516 /* Clinics */,
+				52B6EC0A25B97AFA00FCC516 /* ListExposures */,
+				52B6EBF125B96D8000FCC516 /* Map */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52B6EBE525B96CCB00FCC516 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				52B6EBF425B96EB200FCC516 /* Exposure.swift */,
+				528822FF25D256D20042A604 /* KenExposure.swift */,
+				52CD05FF25B9A6090099D47C /* Clinic.swift */,
+				52B6EBFF25B96FE400FCC516 /* ModelData.swift */,
+				52B6EBB825B96ADA00FCC516 /* CovidNearMe.xcdatamodeld */,
+				52B6EBBC25B96ADA00FCC516 /* Persistence.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		52B6EBF125B96D8000FCC516 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				52B6EC4225B99DDA00FCC516 /* LocationViewModel.swift */,
+				52B6EC4C25B99EF000FCC516 /* LocationView.swift */,
+				52B6EC3625B9813900FCC516 /* MapView.swift */,
+				52BD5ADA25B9B6BB000CB47E /* MapContainer.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		52B6EBF925B96EC900FCC516 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52B6EBFA25B96EE600FCC516 /* nsw.json */,
+				52CD060425B9AA380099D47C /* vicClinics.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		52B6EC0A25B97AFA00FCC516 /* ListExposures */ = {
+			isa = PBXGroup;
+			children = (
+				52CD060925B9AA720099D47C /* ExposureDetail.swift */,
+				52CD05E525B9A5050099D47C /* AlertItem.swift */,
+				52B6EC0B25B97B2E00FCC516 /* AlertsHome.swift */,
+				52B6EC1225B97C7E00FCC516 /* AlertRow.swift */,
+			);
+			path = ListExposures;
+			sourceTree = "<group>";
+		};
+		52B6EC1C25B97E1800FCC516 /* Clinics */ = {
+			isa = PBXGroup;
+			children = (
+				52B6EC3B25B9815800FCC516 /* CircleImage.swift */,
+				52B6EC1D25B97E1800FCC516 /* ClinicDetail.swift */,
+				52BD5ADF25BA4A61000CB47E /* ClinicMap.swift */,
+				52B6EC1E25B97E1800FCC516 /* ClinicListView.swift */,
+				52B6EC1F25B97E1800FCC516 /* ClinicRow.swift */,
+				52BD5AE425BA5460000CB47E /* ClinicAnnotation.swift */,
+			);
+			path = Clinics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +308,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52CD060525B9AA380099D47C /* vicClinics.json in Resources */,
+				52B6EBFB25B96EE600FCC516 /* nsw.json in Resources */,
 				52B6EBD625B96ADC00FCC516 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,6 +318,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52CD060625B9AA380099D47C /* vicClinics.json in Resources */,
+				52B6EBFC25B96EE600FCC516 /* nsw.json in Resources */,
 				52B6EBD725B96ADC00FCC516 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,9 +332,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				52B6EBCE25B96ADC00FCC516 /* CovidNearMe.xcdatamodeld in Sources */,
+				52B6EC4D25B99EF000FCC516 /* LocationView.swift in Sources */,
+				52B6EC2425B97E1800FCC516 /* ClinicRow.swift in Sources */,
+				52CD060025B9A6090099D47C /* Clinic.swift in Sources */,
 				52B6EBD425B96ADC00FCC516 /* Persistence.swift in Sources */,
+				52CD060A25B9AA720099D47C /* ExposureDetail.swift in Sources */,
+				52BD5AE025BA4A61000CB47E /* ClinicMap.swift in Sources */,
 				52B6EBD025B96ADC00FCC516 /* CovidNearMeApp.swift in Sources */,
+				52BD5AE525BA5460000CB47E /* ClinicAnnotation.swift in Sources */,
+				529E14D425BA679B0012D2C4 /* Extensions.swift in Sources */,
+				52B6EBF525B96EB200FCC516 /* Exposure.swift in Sources */,
 				52B6EBD225B96ADC00FCC516 /* ContentView.swift in Sources */,
+				52B6EC3725B9813900FCC516 /* MapView.swift in Sources */,
+				52B6EC1325B97C7E00FCC516 /* AlertRow.swift in Sources */,
+				52B6EC0025B96FE400FCC516 /* ModelData.swift in Sources */,
+				52B6EC0C25B97B2E00FCC516 /* AlertsHome.swift in Sources */,
+				52CD05E925B9A5050099D47C /* AlertItem.swift in Sources */,
+				5288230025D256D20042A604 /* KenExposure.swift in Sources */,
+				52B6EC2225B97E1800FCC516 /* ClinicListView.swift in Sources */,
+				52B6EC2025B97E1800FCC516 /* ClinicDetail.swift in Sources */,
+				52B6EC4325B99DDA00FCC516 /* LocationViewModel.swift in Sources */,
+				52B6EC3C25B9815800FCC516 /* CircleImage.swift in Sources */,
+				52BD5ADB25B9B6BB000CB47E /* MapContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,9 +362,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				52B6EBCF25B96ADC00FCC516 /* CovidNearMe.xcdatamodeld in Sources */,
+				52B6EC4E25B99EF000FCC516 /* LocationView.swift in Sources */,
+				52B6EC2525B97E1800FCC516 /* ClinicRow.swift in Sources */,
+				52CD060125B9A6090099D47C /* Clinic.swift in Sources */,
 				52B6EBD525B96ADC00FCC516 /* Persistence.swift in Sources */,
+				52CD060B25B9AA720099D47C /* ExposureDetail.swift in Sources */,
+				52BD5AE125BA4A61000CB47E /* ClinicMap.swift in Sources */,
 				52B6EBD125B96ADC00FCC516 /* CovidNearMeApp.swift in Sources */,
+				52BD5AE625BA5460000CB47E /* ClinicAnnotation.swift in Sources */,
+				529E14D525BA679B0012D2C4 /* Extensions.swift in Sources */,
+				52B6EBF625B96EB200FCC516 /* Exposure.swift in Sources */,
 				52B6EBD325B96ADC00FCC516 /* ContentView.swift in Sources */,
+				52B6EC3825B9813900FCC516 /* MapView.swift in Sources */,
+				52B6EC1425B97C7E00FCC516 /* AlertRow.swift in Sources */,
+				52B6EC0125B96FE400FCC516 /* ModelData.swift in Sources */,
+				52B6EC0D25B97B2E00FCC516 /* AlertsHome.swift in Sources */,
+				52CD05EA25B9A5050099D47C /* AlertItem.swift in Sources */,
+				5288230125D256D20042A604 /* KenExposure.swift in Sources */,
+				52B6EC2325B97E1800FCC516 /* ClinicListView.swift in Sources */,
+				52B6EC2125B97E1800FCC516 /* ClinicDetail.swift in Sources */,
+				52B6EC4425B99DDA00FCC516 /* LocationViewModel.swift in Sources */,
+				52B6EC3D25B9815800FCC516 /* CircleImage.swift in Sources */,
+				52BD5ADC25B9B6BB000CB47E /* MapContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
