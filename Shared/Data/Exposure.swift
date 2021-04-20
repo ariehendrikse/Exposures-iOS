@@ -8,7 +8,16 @@
 import Foundation
 import SwiftUI
 import CoreLocation
+import CoreData
 
+//public class Location: NSManagedObject, Identifiable {
+//    @NSManaged public var id: UUID
+//    @NSManaged public var date: Date?
+//    @NSManaged public var latitude: Double
+//    @NSManaged public var longitude: Double
+//    @NSManaged public var radius: Double
+//    //@NSManaged public var summary: String
+//}
 struct Exposure: Hashable, Codable, Identifiable {
     var id: String {
         return Venue + Lon + ", " + Lat  + Time
@@ -60,8 +69,10 @@ struct Exposure: Hashable, Codable, Identifiable {
             UIImage(named: "home-14")!
             : x.contains("until you get a negative result") ?
             UIImage(named: "empty-test-tube")!
-            :
+            : x.contains("monitor") ?
             UIImage(systemName: "eye")!
+            :
+            UIImage(systemName: "home")!
     }
     var color: Color {
         let x =  Alert.lowercased()
@@ -70,8 +81,10 @@ struct Exposure: Hashable, Codable, Identifiable {
             Color.red
             : x.contains("until you get a negative result") ?
             Color.yellow
-            :
+            : x.contains("monitor") ?
             Color.blue
+            :
+            Color.red
         
     }
     

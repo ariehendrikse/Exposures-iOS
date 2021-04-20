@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9E43EABE-F7A5-4665-882B-4C9CFDE71A95"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F74C2E4-F6F6-4C0C-9E88-5AC54E159D2C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/Views/ListExposures/ExposureDetail.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "707AC339-0022-4AA7-BF14-74B06DA98934"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/Views/Map/MapView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "addLocationOverlay(to:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "642989E2-12A8-4A07-8365-2DAC7BD74BB7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/Views/Monitor/AddMonitorLocation.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "AddMonitorLocation"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "642989E2-12A8-4A07-8365-2DAC7BD74BB7 - ed6237936c7b046"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of CovidNearMe.AddMonitorLocation.didChange : Swift.Bool"
+                  moduleName = "CovidNearMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ariehendrikse/Documents/App%20Ideas/CovidNearMe/Shared/Views/Monitor/AddMonitorLocation.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "642989E2-12A8-4A07-8365-2DAC7BD74BB7 - 91b6963543d6ef10"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CovidNearMe.AddMonitorLocation.didChange.getter : Swift.Bool"
+                  moduleName = "CovidNearMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ariehendrikse/Documents/App%20Ideas/CovidNearMe/Shared/Views/Monitor/AddMonitorLocation.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "642989E2-12A8-4A07-8365-2DAC7BD74BB7 - ea913b2c4a05d71c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CovidNearMe.AddMonitorLocation.didChange.setter : Swift.Bool"
+                  moduleName = "CovidNearMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ariehendrikse/Documents/App%20Ideas/CovidNearMe/Shared/Views/Monitor/AddMonitorLocation.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "642989E2-12A8-4A07-8365-2DAC7BD74BB7 - 86d4cdad1376dab0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CovidNearMe.AddMonitorLocation.didChange.modify : Swift.Bool"
+                  moduleName = "CovidNearMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ariehendrikse/Documents/App%20Ideas/CovidNearMe/Shared/Views/Monitor/AddMonitorLocation.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "642989E2-12A8-4A07-8365-2DAC7BD74BB7 - d9d78a0e51c82f1c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CovidNearMe.AddMonitorLocation.didChange.modify : Swift.Bool with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "CovidNearMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ariehendrikse/Documents/App%20Ideas/CovidNearMe/Shared/Views/Monitor/AddMonitorLocation.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "642989E2-12A8-4A07-8365-2DAC7BD74BB7 - 8a799215ec40e3d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CovidNearMe.AddMonitorLocation.$didChange.getter : SwiftUI.Binding&lt;Swift.Bool&gt;"
+                  moduleName = "CovidNearMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ariehendrikse/Documents/App%20Ideas/CovidNearMe/Shared/Views/Monitor/AddMonitorLocation.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD83D5F5-092B-43C0-9362-2071A525088F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/Views/Map/MapView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "updateUIView(_:context:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A7483C72-D86D-4969-B2F2-33C70CD4DD10"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/Views/Map/MapView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "updateUIView(_:context:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD21009D-07E6-47DD-BACE-03ABF6235633"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/Views/Monitor/MonitorHome.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "AD21009D-07E6-47DD-BACE-03ABF6235633 - abe9c07450dcdd50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.toolbar&lt;A where A1: SwiftUI.ToolbarContent&gt;(content: () -&gt; A1) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.toolbar&lt;A where A1: SwiftUI.ToolbarContent&gt;(content: () -&gt; A1) -&gt; some&gt;&gt;.0)&gt;&gt; in CovidNearMe.MonitorHome.body.getter : some"
+                  moduleName = "CovidNearMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ariehendrikse/Documents/App%20Ideas/CovidNearMe/Shared/Views/Monitor/MonitorHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "1240">
+               </Location>
+               <Location
+                  uuid = "AD21009D-07E6-47DD-BACE-03ABF6235633 - bd001599ef0e293b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (CovidNearMe.Location) -&gt; SwiftUI.NavigationLink&lt;SwiftUI.Text, CovidNearMe.MonitorDetail&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.toolbar&lt;A where A1: SwiftUI.ToolbarContent&gt;(content: () -&gt; A1) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.toolbar&lt;A where A1: SwiftUI.ToolbarContent&gt;(content: () -&gt; A1) -&gt; some&gt;&gt;.0)&gt;&gt; in CovidNearMe.MonitorHome.body.getter : some"
+                  moduleName = "CovidNearMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ariehendrikse/Documents/App%20Ideas/CovidNearMe/Shared/Views/Monitor/MonitorHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "180">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29AE4E73-6327-4444-95CE-3289598BB3CA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/Views/Monitor/MonitorHome.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C40006C5-43DC-49C0-B64E-61EE8B4F1475"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/Views/Monitor/MonitorHome.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E2AFB4F0-62D0-48ED-A18F-2028FE56DDC8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/Views/Monitor/MonitorHome.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "delete(at:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FA1DCB5C-664C-4CEC-BBAA-188C4A4B533A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/Views/ListExposures/KenExposure.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "endTime"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

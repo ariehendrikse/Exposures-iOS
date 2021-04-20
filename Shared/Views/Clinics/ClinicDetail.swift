@@ -17,7 +17,7 @@ struct ClinicDetail: View {
 
     var body: some View {
         ScrollView {
-            ClinicMap()
+//            ClinicMap()
             CircleImage(image: clinic.image, background: clinic.color)
                 .offset(y:-80)
                 .padding(.bottom, -80)

@@ -17,6 +17,10 @@ class LocationViewModel: NSObject, ObservableObject{
 
     //@Published var region = Region
     private let locationManager = CLLocationManager()
+    
+    func getCoordinate() -> CLLocationCoordinate2D {
+        return CLLocationCoordinate2D(latitude: userLatitude, longitude: userLongitude)
+    }
 
     override init() {
             super.init()

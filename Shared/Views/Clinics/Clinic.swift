@@ -27,6 +27,12 @@ struct Clinic: Hashable, Codable, Identifiable {
     var LGA: String
     var delaytext: String?
     var Requirements: String?
+    var mapAnnotation:  MapAnnotationProtocol  { return MapAnnotation(coordinate: locationCoordinate!, anchorPoint: CGPoint(x: 0.5, y: 0.5)) {
+        Circle()
+            .strokeBorder(Color.red, lineWidth: 10)
+            .frame(width: 44, height: 44)
+        }
+    }
     var addressByName: String {
         let trailing: String = ", " + self.Suburb + ", " + self.State
         var s = self.Address

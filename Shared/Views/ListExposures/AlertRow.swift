@@ -6,16 +6,15 @@
 //
 
 import SwiftUI
+import CoreLocation
+import MapKit
 
 struct AlertRow: View {
-    var alertName: String
+    @ObservedObject var locationViewModel = LocationViewModel()
     var items: [KenExposure]
+    
     var body: some View {
         VStack(alignment: .leading) {
-            Text(alertName)
-                .font(.headline)
-                .padding(.leading, 15)
-                .padding(.top, 5)
 
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top, spacing: 0) {
@@ -34,6 +33,6 @@ struct AlertRow: View {
 
 struct AlertRow_Previews: PreviewProvider {
     static var previews: some View {
-        AlertRow(alertName: "Monitor for symptoms.", items: ModelData().exposures)
+        AlertRow( items: ModelData().exposures)
     }
 }

@@ -39,16 +39,12 @@ struct ClinicListView: View {
     var body: some View {
         NavigationView {
             List {
-                MapContainer(locations: modelData.clinics.filter({ (clinic) -> Bool in
-                    clinic.locationCoordinate != nil
-                })
-                .map({ (clinic) -> ClinicAnnotation in
-                    ClinicAnnotation(clinic: clinic)
-                    
-                }))
-                    .frame(height: 300)
-                    .clipped()
-                    .listRowInsets(EdgeInsets())
+//                MapContainer(locations: modelData.clinics.filter({ (clinic) -> Bool in
+//                    clinic.locationCoordinate != nil
+//                }))
+//                    .frame(height: 300)
+//                    .clipped()
+//                    .listRowInsets(EdgeInsets())
                 Toggle(isOn: $showFavoritesOnly) {
                     Text("Favorites only")
                 }

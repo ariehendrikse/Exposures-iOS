@@ -1,32 +1,32 @@
+////
+////  ClinicMap.swift
+////  CovidNearMe
+////
+////  Created by Arie Hendrikse on 22/1/21.
+////
 //
-//  ClinicMap.swift
-//  CovidNearMe
+//import SwiftUI
+//import MapKit
 //
-//  Created by Arie Hendrikse on 22/1/21.
+//struct ClinicMap: View {
+//    @EnvironmentObject var modelData: ModelData
 //
-
-import SwiftUI
-import MapKit
-
-struct ClinicMap: View {
-    @EnvironmentObject var modelData: ModelData
-
-    var body: some View {
-        MapContainer(locations: modelData.clinics.filter({ (clinic) -> Bool in
-            clinic.locationCoordinate != nil
-        })
-        .map({ (clinic) -> ClinicAnnotation in
-            return ClinicAnnotation(clinic: clinic)
-        }))
-            .frame(height: 300)
-            .clipped()
-            .listRowInsets(EdgeInsets())
-
-    }
-}
-
-struct ClinicMap_Previews: PreviewProvider {
-    static var previews: some View {
-        ClinicMap()
-    }
-}
+//    var body: some View {
+//        MapContainer(locations: modelData.clinics.filter({ (clinic) -> Bool in
+//            clinic.locationCoordinate != nil
+//        })
+//        .map({ (clinic) -> MapAnnotationProtocol in
+//            return clinic.mapAnnotation
+//        }))
+//            .frame(height: 300)
+//            .clipped()
+//            .listRowInsets(EdgeInsets())
+//
+//    }
+//}
+//
+//struct ClinicMap_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ClinicMap()
+//    }
+//}
